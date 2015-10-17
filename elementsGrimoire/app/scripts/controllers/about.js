@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name mytodoApp.controller:AboutCtrl
+ * @name elementsGrimoireApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the mytodoApp
+ * Controller of the elementsGrimoireApp
  */
-angular.module('mytodoApp')
+angular.module('elementsGrimoireApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

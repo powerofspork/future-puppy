@@ -2,20 +2,21 @@
 
 /**
  * @ngdoc overview
- * @name mytodoApp
+ * @name elementsGrimoireApp
  * @description
- * # mytodoApp
+ * # elementsGrimoireApp
  *
  * Main module of the application.
  */
 angular
-  .module('mytodoApp', [
+  .module('elementsGrimoireApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.sortable'
   ])
   .config(function ($routeProvider) {
     $routeProvider
